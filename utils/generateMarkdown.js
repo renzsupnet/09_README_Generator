@@ -5,10 +5,15 @@ function renderLicenseBadge(license) {
 }
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+
 function renderLicenseLink(data) {
+
+  // Placeholder variables, year for copyright 
   const year = new Date();
   let licenseLink;
   let licenseDesc;
+
+  // Use data.license as a basis of choice and assing licenseDesc with the corresponding description and link
   switch(data.license){
 
     case `Apache_License_2.0`:
@@ -138,6 +143,8 @@ function renderLicenseLink(data) {
       licenseLink = "";
       licenseDesc = "";
   }
+
+  // Returns an empty string if data is empty
   return data ? `${licenseDesc}
 
   ${licenseLink}
@@ -150,6 +157,8 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+
+// The README constructor function that takes in input data then inserts them into appropriate sections
 function generateMarkdown(data) {
   return `
   # ${data.title}
@@ -195,4 +204,5 @@ function generateMarkdown(data) {
   `;
 }
 
+// Export to be used in the index.js file at the root directory
 module.exports = generateMarkdown;
