@@ -22,7 +22,8 @@
   ## Usage
 
     Answer queries as they appear in the terminal.
-
+   [Video Walkthrough](https://youtu.be/uqqeogGU29Q)
+    
   ## Screenshots
 
     The terminal query interface
