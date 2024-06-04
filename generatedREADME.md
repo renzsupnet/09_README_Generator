@@ -1,5 +1,5 @@
-# 09_README_Generator
 
+  # README Generator
 
   ## Description
 
@@ -9,7 +9,6 @@
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Screenshots](#screenshots)
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
@@ -22,17 +21,6 @@
   ## Usage
 
     Answer queries as they appear in the terminal.
-
-  ## Screenshots
-
-    The terminal query interface
-
-  ![Alt text](/utils/images/terminal.png "Terminal")
-
-
-    An example of a generatedREADME file
-
-  ![Alt text](/utils/images/code.png "Code")
   
   ## License 
   ### Badge 
